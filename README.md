@@ -1,23 +1,3 @@
-"""
-============================================================
-  S.A.R.A — Search And Rescue Assistant
-  Prompt Wars 2026 | Scenario 2: The Internet Blackout
-
-  WORKS 100% OFFLINE — NO INTERNET REQUIRED
-  ─────────────────────────────────────────
-  • UDP broadcast over local Wi-Fi / mobile hotspot / LAN
-  • Auto-discovers all SARA devices on same network
-  • GPS location detection + manual entry
-  • Direct location dispatch to Rescue Team devices
-  • SMS-style emergency contact alerts via Windows/Linux dialer
-  • SOS broadcast flashes all devices simultaneously
-  • Emergency contact list stored locally (contacts.json)
-
-  RUN:  python SARA.py
-  REQ:  Python 3.7+  |  No pip installs needed
-============================================================
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext, simpledialog
 import socket
